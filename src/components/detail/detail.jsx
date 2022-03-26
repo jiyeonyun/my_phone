@@ -1,10 +1,11 @@
 import React from 'react';
+import PaintingBorad from '../paintingBorad/paintingBorad';
 import styles from './detail.module.css';
 
 const Detail = () => {
     
     return(
-        <h1>hi</h1>
+        <PaintingBorad/>
     );
 };
 
