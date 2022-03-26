@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    width: 100%;
+    margin-top: 0.01em;
+    height: 1.6em;
+}
+.headerIcon{
+font-size: 1.2rem;
+}
+.headerTime{
+    font-weight: bold;
+    color: white;
+}
