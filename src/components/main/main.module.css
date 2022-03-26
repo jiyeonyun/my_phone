@@ -1,0 +1,52 @@
+.phoneWrap{
+width: 28em;
+background-color: rgb(68, 109, 68);
+height: 38em;
+border-radius: 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.phone{
+    display: flex;
+    width: 24em;
+    background-color: rgb(255, 255, 255);
+    height: 34em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.appList{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.app{
+    margin: 1rem;
+    width: 5em;
+    height: 5em;
+    background-color: rgb(252, 217, 74);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.6s;
+    border-radius: 1.3em;
+    box-shadow: 3px 3px 3px 3px rgb(171, 171, 171);
+}
+.app:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size: 3rem;
+}

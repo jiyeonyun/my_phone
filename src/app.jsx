@@ -1,8 +1,13 @@
-import './app.css';
+import { useState } from 'react';
+import styles from './app.module.css';
+import Main from './components/main/main';
 
 function App() {
+  
   return (
-    <h1>hello</h1>
+    <div className={styles.wrap}>
+      <Main/>
+    </div>
   );
 }
 
