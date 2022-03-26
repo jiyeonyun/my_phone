@@ -1,0 +1,18 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 2em;
+    color: white;
+}
+.icon{
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
