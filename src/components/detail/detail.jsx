@@ -1,4 +1,5 @@
 import React from 'react';
+import Calculate from '../calculate/calculate';
 import HabitTracker from '../habitTracker/habitTracker';
 import PaintingBorad from '../paintingBorad/paintingBorad';
 import Wordle from '../wordle/wordle';
@@ -9,7 +10,8 @@ const Detail = () => {
     return(
         // <PaintingBorad/>
         // <Wordle/>
-        <HabitTracker/>
+        // <HabitTracker/>
+        <Calculate/>
     );
 };
 

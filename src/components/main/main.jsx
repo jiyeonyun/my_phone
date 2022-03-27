@@ -3,7 +3,7 @@ import Footer from '../footer/footer';
 import Header from '../header/header';
 import styles from './main.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPalette,faW,faCarrot,faList,faCloudSun,faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faPalette,faW,faCarrot,faCloudSun,faLeaf,faCalculator } from '@fortawesome/free-solid-svg-icons';
 import Detail from '../detail/detail';
 
 const Main = (props) =>{
@@ -22,7 +22,7 @@ const Main = (props) =>{
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faPalette} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faW} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCarrot} /></li>
-                    <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faList} /></li>
+                    <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCalculator} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCloudSun} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faLeaf} /></li>
                 </ul>
