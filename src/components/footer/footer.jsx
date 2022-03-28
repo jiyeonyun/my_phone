@@ -9,7 +9,7 @@ const Footer = ({clicked,setClicked}) => {
     return(
         <footer className={styles.footer}>
             <span className={styles.icon} onClick={onCancle}><FontAwesomeIcon icon={faArrowRotateLeft} /></span>
-            <span className={styles.icon}><FontAwesomeIcon icon={faCircleNotch} /></span>
+            <span className={styles.icon} onClick={onCancle}><FontAwesomeIcon icon={faCircleNotch} /></span>
             <span className={styles.icon}><FontAwesomeIcon icon={faBars} /></span>
         </footer>
     );

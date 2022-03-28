@@ -1,0 +1,127 @@
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3{
+    margin: 0;
+    padding: 0;
+  }
+  form{
+    margin-top: 50px;
+  }
+  button{
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  .App {
+    text-align: center;
+    background-image: url(/Users/yunjiyeon/my_phone/public/images/bg3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+  }
+  .App_night{
+    text-align: center;
+    background-image: url(/Users/yunjiyeon/my_phone/public/images/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+  }
+  .background{
+    height: 28.6em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .city{
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+  }
+  .weatherNow{
+    font-size: 18px;
+  }
+  .Temperature{
+    font-weight: bold;
+    font-size: 26px;
+  }
+  .search-box{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .where{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 3em;
+    width: 10em;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    color: black;
+  }
+  .weatherIcon{
+    color: black;
+  }
+  .recommand{
+  margin-top: 10px;
+  color: black;
+  }
+  .date{
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+  }
+  .notrecommand{
+    background-color: rgba(255, 255, 255, 0.55);
+    width: 300px;
+    position: relative;
+    color: black;
+    
+  }
+  .anotherInfo{
+    text-align: right;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .city span{
+    font-weight: bold;
+  }
+  .reset{
+    position: absolute;
+    bottom: 1em;
+    left: 8em;
+    font-weight: bold;
+    font-size: 1rem;
+    
+  }
+  .reset:hover{
+    transform: scale(1.1);
+  }
+  .icon{
+    color: black !important;
+  }
+  .notice{
+    color: rgb(80, 108, 218);
+    font-size: 0.8rem;
+    font-weight: bold;
+  }

@@ -21,7 +21,7 @@ const Main = (props) =>{
                     : <ul className={styles.appList}>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faPalette} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faW} /></li>
-                    <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCarrot} /></li>
+                    <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon="fa-solid fa-bed" /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCalculator} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faCloudSun} /></li>
                     <li className={styles.app} onClick={onClick}><FontAwesomeIcon className={styles.icon} icon={faLeaf} /></li>
