@@ -29,7 +29,6 @@ const Wordle = (props) => {
     }
     const changeColor= (e)=>{
         let target = e.target;
-        console.log(colorNum);
         
         if(colorNum <3){
             target.style.background = `${color[colorNum]}`

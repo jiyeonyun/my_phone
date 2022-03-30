@@ -7,7 +7,6 @@ import WeatherRecommand from '../weatherRecommand/weatherRecommand';
 import Wordle from '../wordle/wordle';
 
 const Detail = ({name}) => {
-    console.log(name)
     return(
         <>
             {

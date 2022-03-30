@@ -7,7 +7,7 @@ const SimpleHabit = (props) => {
       });
 
     useEffect(()=>{
-        console.log({count});
+    
     },[]);
     return (
         <li className="habit">
