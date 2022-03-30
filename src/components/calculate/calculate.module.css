@@ -45,14 +45,28 @@
     height: 4rem;
     display: flex;
     padding: 1rem;
+    overflow-y: unset;
+    align-items: center;
+    padding-bottom: 2em;
+    border-radius: 1rem 1rem 0 0 ;
 }
-.controlor button{
+.ac{
     height: 2rem;
     width: 40%;
     margin-left: 1em;
     margin-right: 1em;
     border-radius: 0.5rem;
     font-weight: bold;
+    color: whitesmoke;
+}
+.enter{
+    height: 2rem;
+    width: 40%;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: whitesmoke;
 }
 .controlor button:hover{
     transform: scale(1.1);

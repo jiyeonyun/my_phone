@@ -7,15 +7,35 @@ import WeatherRecommand from '../weatherRecommand/weatherRecommand';
 import Wordle from '../wordle/wordle';
 import styles from './detail.module.css';
 
-const Detail = () => {
-    
+const Detail = ({name}) => {
+    console.log(name)
     return(
-        // <PaintingBorad/>
-        // <Wordle/>
-        // <HabitTracker/>
-        // <Calculate/>
-        // <WeatherRecommand/>
-        <SleepyTime/>
+        <>
+            {
+                name === 'painting'?<PaintingBorad/>:<></>
+            }
+            {
+                name === 'wordle'?<Wordle/>:<></>
+            }
+            {
+                name === 'sleepy'?<SleepyTime/>:<></>
+            }
+            {
+                name === 'calculate'?<Calculate/>:<></>
+            }
+            {
+                name === 'weather'?<WeatherRecommand/>:<></>
+            }
+            {
+                name === 'habit'?<HabitTracker/>:<></>
+            }
+        </>
+        // // <PaintingBorad/>
+        // // <Wordle/>
+        // // <HabitTracker/>
+        // // <Calculate/>
+        // // <WeatherRecommand/>
+        // //<SleepyTime/>
     );
 };
 

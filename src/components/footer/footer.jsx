@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRotateLeft ,faCircleNotch, faBars  } from '@fortawesome/free-solid-svg-icons';
-const Footer = ({clicked,setClicked}) => {
+const Footer = ({clicked,setClicked,setName}) => {
     const onCancle = ()=>{
         setClicked(!clicked);
+        setName('');
     }
     return(
         <footer className={styles.footer}>
