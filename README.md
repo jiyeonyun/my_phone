@@ -61,6 +61,7 @@ JS의 경우, getElementById 등의 방법으로 DOM에서 canvas 태그에 접�
 5번의 기회안에 맞춰야합니다.
 <br> <br>
 <img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833390-92310cfd-91bc-419e-8d27-01b5249afda8.gif">
+<br> <br>
 한번에 맞추면 축하하는 팝업이 뜹니다.
 <br> <br>
 기존에 js로 만들었을때 단어를 제출시 아이디를 지우고 새로운 템플릿을 넣는 형태로 만들었는데,
