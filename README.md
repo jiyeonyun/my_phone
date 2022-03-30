@@ -7,16 +7,20 @@
 <img src="https://img.shields.io/badge/Git hub-181717?style=flat-square&logo=Github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=flat-square&logo=Yarn&logoColor=white"/>
 <br>
-<img width="1341" alt="스크린샷 2022-03-24 오후 7 54 03" src="https://user-images.githubusercontent.com/94913420/159901622-2fa1b39a-5dac-47ef-a11b-ccb790f38d18.png">
+<img width="491" alt="main" src="https://user-images.githubusercontent.com/94913420/160829195-ccff671e-8dcf-431f-8223-26d7850fe849.png">
 <br> <br>
-유튜브 클론코딩을했습니다. 유튜브 api를 사용해 검색기능과 인기동영상, 반응형을 구현했습니다.<br>
+기존에 etc 리포지토리에 있던 토이프로젝트를 한 파일로 합쳐보고싶어 리액트를 사용해 만들어 보았습니다.<br>
+핸드폰처럼 ui를 디자인해 어플을 누르는 형태로 만들었습니다.<br>
+기존에 js로만 만든 파일이 많아 리액트로 변환하는 과정이 많아, js를 리액트로 변환하는방법을 알게 되었고, 리액트의 장점을 알게 되었습니다.
 <br>
 
 
 ## 상세 페이지
-<img width="1341" alt="스크린샷 2022-03-24 오후 7 54 03" src="https://user-images.githubusercontent.com/94913420/159901622-2fa1b39a-5dac-47ef-a11b-ccb790f38d18.png">
+<img width="491" alt="main" src="https://user-images.githubusercontent.com/94913420/160829195-ccff671e-8dcf-431f-8223-26d7850fe849.png">
 <br> <br> <br> 
-메인페이지입니다. 인기동영상이 리스트로 나열됩니다. 
+메인페이지입니다. 위에 헤더에는 실시간 시간과 하단바에는 뒤로가기 취소버튼 메뉴 버튼이 있습니다. <br>
+6개의 어플리케이션이 있습니다.<br>
+클릭시 해당 어플로 이동합니다.
 <br> <br>
 <img width="1330" alt="스크린샷 2022-03-24 오후 7 54 11" src="https://user-images.githubusercontent.com/94913420/159901610-db78205e-4183-4a26-bef3-3c54eba519f7.png">
 <br> <br> <br> 
