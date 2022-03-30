@@ -42,5 +42,15 @@ JS의 경우, getElementById 등의 방법으로 DOM에서 canvas 태그에 접�
 그런데 리액트로 변환하는 중 , canvas태그에 접근하는방법을 찾는데 시간을 많이 소모했습니다. useRef를 사용해 canvas태그에 접근해,<br>
 그림판-리액트 버전을 완성했습니다.<br>
 
+### wordle
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160829242-be17e150-8abb-4ea1-af2d-5e47c99f4efb.png">
+<br> <br> <br> 
+워들게임입니다. <br>
+게임을 하는 방법은, input박스에 단어를 적습니다. 
+<br> 단어를 제출하면,<br>
+자리와 알파벳이 맞으며 초록색, 해당하는 알파벳이 들어가지만, 자리가 틀리면 노란색, 그 단어에 존재하지않는 알파벳이 경우 빨간색으로 나옵니다.<br>
+
+<br> <br>
+기존에 js로 , <br>
 
 
