@@ -5,7 +5,6 @@ import PaintingBorad from '../paintingBorad/paintingBorad';
 import SleepyTime from '../sleepyTime/sleepyTime';
 import WeatherRecommand from '../weatherRecommand/weatherRecommand';
 import Wordle from '../wordle/wordle';
-import styles from './detail.module.css';
 
 const Detail = ({name}) => {
     console.log(name)

@@ -46,7 +46,6 @@ const WeatherRecommand = (props) => {
         let month = months[d.getMonth()];
         let year = d.getFullYear();
         let date = d.getDate();
-        let hours = d.getHours();
 
     return `${day} ${date} ${month} ${year}`;
 }

@@ -21,7 +21,7 @@ const SleepyTime = (props) => {
 
 
     const calClick = ()=>{
-        if(minRef.current.value =='min' || hourRef.current.value == 'hour'){
+        if(minRef.current.value ==='min' || hourRef.current.value === 'hour'){
             alert('시간을 입력해 주세요');
         }
         else{
@@ -29,7 +29,7 @@ const SleepyTime = (props) => {
             setCalTime(true);
             setAmpm(ampmRef.current.value);
             setMin(Number(minRef.current.value));
-            if(ampmRef.current.value == 'pm'){
+            if(ampmRef.current.value === 'pm'){
                 setHour(Number(hourRef.current.value)+12);
             }
             else{

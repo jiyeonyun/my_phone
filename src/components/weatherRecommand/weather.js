@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './weatherRecommand.css';
 function Recommand(props){
     let temper = props.weather.main.temp 

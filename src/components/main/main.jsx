@@ -3,7 +3,7 @@ import Footer from '../footer/footer';
 import Header from '../header/header';
 import styles from './main.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPalette,faW,faCarrot,faCloudSun,faLeaf,faCalculator } from '@fortawesome/free-solid-svg-icons';
+import { faPalette,faW,faCloudSun,faLeaf,faCalculator } from '@fortawesome/free-solid-svg-icons';
 import Detail from '../detail/detail';
 
 const Main = (props) =>{
