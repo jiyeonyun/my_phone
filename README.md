@@ -23,7 +23,18 @@
 클릭시 해당 어플로 이동합니다.
 <br> <br>
 
+### habit Tracker
 <img width="480" alt="habit" src="https://user-images.githubusercontent.com/94913420/160829211-2d37f731-ffba-4e82-b41a-ef55db776b01.png">
 <br> <br> <br> 
-habit Tracker입니다. 
+habit Tracker입니다. 취미를 추가할수있고, 삭제, 카운트 할수있습니다.
+<br> 리셋버튼을 누르며 기존에 카운트 되었던걸 리셋 할 수 있습니다.<br>
+<img width="480" alt="habit" src="https://user-images.githubusercontent.com/94913420/160827951-e9dce819-edd5-4cf1-b0ed-d7411d72ab5c.gif">
+<br> <br>
+
+### 그림판
+<img width="488" alt="painting" src="https://user-images.githubusercontent.com/94913420/160829248-bc1da019-7740-4dd7-abf6-b1a3e323aa54.png">
+<br> <br> <br> 
+그림판 입니다. 색상변경, 채우기, 브러쉬 크기조절을 할수있습니다.
+<br> 기존에 js로 만들었었는데, js랑 <br>
+<img width="480" alt="painting" src="https://user-images.githubusercontent.com/94913420/160827886-3e656e18-0cb7-414c-9c6a-5fc67d257488.gif">
 <br> <br>
