@@ -35,6 +35,12 @@ habit Tracker입니다. 취미를 추가할수있고, 삭제, 카운트 할수�
 <img width="488" alt="painting" src="https://user-images.githubusercontent.com/94913420/160829248-bc1da019-7740-4dd7-abf6-b1a3e323aa54.png">
 <br> <br> <br> 
 그림판 입니다. 색상변경, 채우기, 브러쉬 크기조절을 할수있습니다.
-<br> 기존에 js로 만들었었는데, js랑 <br>
 <img width="480" alt="painting" src="https://user-images.githubusercontent.com/94913420/160827886-3e656e18-0cb7-414c-9c6a-5fc67d257488.gif">
 <br> <br>
+기존에 js로 만들었었는데, web에서는 마우스로 그림을 그리리면 canvas라는 html 태그를 사용해야 하고,<br>
+JS의 경우, getElementById 등의 방법으로 DOM에서 canvas 태그에 접근이 가능합니다.<br>
+그런데 리액트로 변환하는 중 , canvas태그에 접근하는방법을 찾는데 시간을 많이 소모했습니다. useRef를 사용해 canvas태그에 접근해,<br>
+그림판-리액트 버전을 완성했습니다.<br>
+
+
+
