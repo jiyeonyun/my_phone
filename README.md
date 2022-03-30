@@ -51,14 +51,53 @@ JS의 경우, getElementById 등의 방법으로 DOM에서 canvas 태그에 접�
 자리와 알파벳이 맞으며 초록색, 해당하는 알파벳이 들어가지만, 자리가 틀리면 노란색, 그 단어에 존재하지않는 알파벳이 경우 빨간색으로 나옵니다.<br>
 * https://jiyeonyun.github.io/wordle/
 <br> <br>
-<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833390-92310cfd-91bc-419e-8d27-01b5249afda8.gif">
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833388-3b30a9a4-a33c-427d-bf85-5f2da8baafa7.gif">
+
 <br> <br>
 키보드를 누르면 색상을 기록할수있습니다.
+<br> <br>
 <img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833368-94b1e9cc-18aa-4d1f-870f-328babf52d37.gif">
-<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833388-3b30a9a4-a33c-427d-bf85-5f2da8baafa7.gif">
+<br> <br>
+5번의 기회안에 맞춰야합니다.
+<br> <br>
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833390-92310cfd-91bc-419e-8d27-01b5249afda8.gif">
+한번에 맞추면 축하하는 팝업이 뜹니다.
+<br> <br>
 기존에 js로 만들었을때 단어를 제출시 아이디를 지우고 새로운 템플릿을 넣는 형태로 만들었는데,
 <br> react로 변환했을때 해결방법을 찾지못해 위에 js버전 wordle을 따로 배포했습니다.
 <br>해결 방법을 찾을시 수정해서 재 배포 하겠습니다.
+
+### 계산기
+<img width="476" alt="calcu" src="https://user-images.githubusercontent.com/94913420/160829236-5daa8a1d-9414-4451-af4f-847ea8f2f5fb.png">
+<br> <br> <br> 
+계산기입니다. 간단한 연산을 할수있습니다.
+<img width="480" alt="calculate" src="https://user-images.githubusercontent.com/94913420/160827938-4a87da54-192a-4c91-9f66-7dd8bb3c61ab.gif">
+<br> <br>
+배열을사용해 연산기호를 누를때마다 push하는 형태로 만들었습니다.
+<br> <br>
+
+### 날씨별 옷 추천
+<img width="491" alt="weather" src="https://user-images.githubusercontent.com/94913420/160829225-4a9ce93b-e570-4bc7-b7c5-d6a3cecfdb7d.png">
+<br> <br> <br> 
+날씨별 옷을 추천해주는 사이트 입니다.<br>
+날씨 api를 사용하여 각 도시의 날씨를 검색하면, 그 도시의 날씨, 체감온도, 최저, 최고 온도가 나오고, 그 날씨에 맞는 <br>
+옷 차림을 추천해주는 사이트 입니다.
+
+<img width="480" alt="weather" src="https://user-images.githubusercontent.com/94913420/160827943-23aeacc9-7eb7-4e52-9d91-4d223309f68e.gif">
+<br> <br>
+
+### 개운한 수면시간 계산기
+<img width="477" alt="sleepp" src="https://user-images.githubusercontent.com/94913420/160829240-bf3d2527-4d88-4d25-bb96-d2c0de85ebef.png">
+<br> <br> <br> 
+
+사람의 수면패턴을 계산하여, <br>
+일어나야할시간을 입력하면 잠들어야할 시간을 알려주고,<br>
+
+지금 잔다고 가정하면 언제 일어나야 개운한지 알려주는 사이트 입니다.<br>
+제가 유용하게 사용하다가, 만들어보면 좋을것 같아서 만들어 보았습니다.
+
+<img width="480" alt="sleepp" src="https://user-images.githubusercontent.com/94913420/160827933-72f03ab1-d005-492e-ada3-295c264a6079.gif">
+<br> <br>
 
 
 
