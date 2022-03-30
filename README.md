@@ -51,6 +51,11 @@ JS의 경우, getElementById 등의 방법으로 DOM에서 canvas 태그에 접�
 자리와 알파벳이 맞으며 초록색, 해당하는 알파벳이 들어가지만, 자리가 틀리면 노란색, 그 단어에 존재하지않는 알파벳이 경우 빨간색으로 나옵니다.<br>
 * https://jiyeonyun.github.io/wordle/
 <br> <br>
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833390-92310cfd-91bc-419e-8d27-01b5249afda8.gif">
+<br> <br>
+키보드를 누르면 색상을 기록할수있습니다.
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833368-94b1e9cc-18aa-4d1f-870f-328babf52d37.gif">
+<img width="493" alt="wordle" src="https://user-images.githubusercontent.com/94913420/160833388-3b30a9a4-a33c-427d-bf85-5f2da8baafa7.gif">
 기존에 js로 만들었을때 단어를 제출시 아이디를 지우고 새로운 템플릿을 넣는 형태로 만들었는데,
 <br> react로 변환했을때 해결방법을 찾지못해 위에 js버전 wordle을 따로 배포했습니다.
 <br>해결 방법을 찾을시 수정해서 재 배포 하겠습니다.
